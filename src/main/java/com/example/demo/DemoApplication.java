@@ -21,7 +21,7 @@ public class DemoApplication {
                 .andExpect(jsonPath("$._embedded.articles[0].Plan_stock").value("Planstock"))
 
                 .andExpect(jsonPath("$._embedded.articles[0].Capacite_stock").value(10));*/
-    @Bean
+   /* @Bean
     public CommandLineRunner initDatabase(StadeRepository stadeRepository) {
         return (a) -> {
             var categorie1 = Stade.builder().Nom("Article_1").Address("sale").Capacite_stock(10).
@@ -31,7 +31,7 @@ public class DemoApplication {
 
 
         };
-    }
+    }*/
     @Bean
     public CommandLineRunner initDatabase2(ClientRepository clientRepository) {
         return (a) -> {

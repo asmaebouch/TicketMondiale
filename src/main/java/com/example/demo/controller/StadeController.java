@@ -15,7 +15,7 @@ import java.util.Optional;
 @RestController
 @RequestMapping("/eco")
 
-public class StadeController {
+public class  StadeController {
 @Autowired
     StadeRepository stadeRepository;
 @Autowired
